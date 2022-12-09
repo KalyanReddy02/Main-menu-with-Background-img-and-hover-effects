@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon"  href="https://tse3.mm.bing.net/th?id=OIP.yZ5NRxnzRjzvP86QeQ6oZwHaEs&pid=Api&P=0">
+<style>
+
+body{
+background-image: url('https://cdn.wallpapersafari.com/8/1/90rsVM.jpg');
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+
+}
+
+h1{
+padding:20px;
+text-align:center;
+background-color:lightyellow;
+color:green;
+border: 5px solid black;
+
+}
+
+
+
+
+ul{
+list-style-type: none;
+padding:0px;
+margin:0px;
+float: left;
+overflow: hidden;
+}
+
+li {
+float: left;
+
+}
+
+li a{
+   list-style-type: none;
+   font-size:30px;
+   display:block;
+   width:135px;
+   height:20px;
+   background-color:black;
+   color:orange;
+   padding:55px;
+text-decoration:none;
+  
+
+}
+li a:hover {
+  background-color:green;
+  color: white;
+
+}
+
+li a:active{
+color:grey;
+}
+
+.Home {
+  background-color: darkblue;
+}
+
+
+.Relative{
+display:block;
+position:relative;
+left:270px;
+font-size:28px;
+top:140px;
+width:40px;
+height:40px;
+color:white;
+padding:20px;
+
+
+}
+
+.Absolute{
+
+position:absolute;
+
+
+
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+<h1> PAN INDIA Restaurant</h1>
+
+<ul><b>
+<li> <a class="Home" href=#Home> Home </a></li>
+<li> <a href=#Biriyani's> Biriyani's </a></li>
+<li> <a href=#Ice Cream's> Ice Cream's </a></li>
+<li> <a href=#Juices> Juices  </a></li>
+<li> <a href=#Cool drinks> Cool drink's  </a></li>
+<li style="float:top-right"> <a href=#Milk Shakes> Milk Shake's </a></li></b>
+</ul>
+
+<div class="Relative">
+<div class="Absolute">
+<ul>
+<li>Chicken Biriyani<br></li>
+<li> Mutton Biriyani </li>
+<li>Fish Biriyani</li>
+</ul>
+
+</div></div>
+
+</body>
+</html>
